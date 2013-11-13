@@ -1,0 +1,500 @@
+  176  nc 1000 -l 30000 > test.txt
+  177  nc -l 30000 > test.txt
+  178  ls
+  179  ls -l
+  180  nc -l 30000 > test.txt
+  181  ls
+  182  cat portscanner.py 
+  183  clear
+  184  ls
+  185  nc -l 30000 > test.txt
+  186  nc -l 30000 > test.txt
+  187  ls -l
+  188  nc -l 30000 > geoloc.py
+  189  ls
+  190  ls -l
+  191  nc -l 30000 > geoloc.py
+  192  ls -l geoloc.py 
+  193  nc -l 30000 > geoloc.py
+  194  ls -l geoloc.py 
+  195  cat geoloc.py 
+  196  PuTTYPuTTYPuTTYclear
+  197  clear
+  198  nc -l 30000 > geoloc.py
+  199  ls -l
+  200  nc -l 30000 > geoloc.py
+  201  nc -l 30000 > geoloc.py
+  202  ls -l geoloc.py 
+  203  nc -l 30000 > geoloc.py
+  204  ls -l geoloc.py 
+  205  cat geoloc.py 
+  206  nc -l 30000 > GeoLiteCity.dat
+  207  ls -l GeoLiteCity.dat 
+  208  nc -l 30000 > GeoLiteCity.dat
+  209  nc -l 30000 > GeoLiteCity.dat
+  210  ls -l 
+  211  cat fileIO.py 
+  212  clear
+  213  clear
+  214  nc -l 30000 > GeoLiteCity.dat
+  215  nc -l 30000 > GeoLiteCity.dat
+  216  ls -l
+  217  nc -l 30000 > GeoLiteCity.dat
+  218  nc -l 30000 > GeoLiteCity.dat
+  219  nc -l 30000 > GeoLiteCity.dat
+  220  ls -l
+  221  cat GeoLiteCity.dat 
+  222  clear
+  223  nc -l 30000 > GeoLiteCity.dat
+  224  ls -l GeoLiteCity.dat 
+  225  cd PythonDevelopment/
+  226  ls
+  227  mv ../vulnBanners.txt .
+  228  ls
+  229  python fileIO.py 
+  230  python fileIO.py 
+  231  python fileIO.py 
+  232  python fileIO.py 
+  233  python fileIO.py vulnBanners.txt Xitami
+  234  python fileIO.py vulnBanners.txt Xitami
+  235  python fileIO.py vulnBanners.txt Xitami
+  236  python fileIO.py vulnBanners.txt Xitami
+  237  python fileIO.py vulnBanners.txt Xitami
+  238  python fileIO.py vulnBanners.txt Xitami
+  239  python fileIO.py vulnBanners.txt 
+  240  python fileIO.py vulnBanners.txt 
+  241  python fileIO.py vulnBanners.txt Xitami
+  242  python fileIO.py vulnBanners.txt 
+  243  python fileIO.py vulnBanners.txt Xitami
+  244  python OS.py
+  245  python OS.py vulnBanner.txt
+  246  python OS.py vulnBanner.txt
+  247  python OS.py vulnBanner.txt
+  248  python OS.py vulnBanners.txt
+  249  python OS.py vulnBanners.txt
+  250  cat /etc/passwd
+  251  sudo cat /etc/passwd 
+  252  python
+  253  nc -v -w 60 -p 25000 < UNIXPasswordCracker.py 
+  254  nc -v -l -w 60 -p 25000 < UNIXPasswordCracker.py 
+  255  nc -v -l -w 60  25000 < UNIXPasswordCracker.py 
+  256  python UNIXPasswordCracker.py 
+  257  python
+  258  ls
+  259  ls
+  260  mkdir evil
+  261  cd evil/
+  262  touch test.txt
+  263  touch wtf.bmp
+  264  ls
+  265  echo "shruggggg" > test.txt 
+  266  cat test.txt 
+  267  cd ..
+  268  ls
+  269  python createzip.py 
+  270  python createzip.py 
+  271  python createzip.py 
+  272  ls
+  273  mv evil evil-backup
+  274  ls
+  275  python unzip.py 
+  276  ls
+  277  cd e
+  278  cd evil
+  279  ls
+  280  cd ..
+  281  rm -rf evil/
+  282  ls
+  283  python unzip.py 
+  284  ls
+  285  rm -rf evil/
+  286  ls
+  287  python unzip.py 
+  288  ls
+  289  ls evil
+  290  cat evil/test.txt 
+  291  ls
+  292  python unzip.py 
+  293  python unzip.py 
+  294  ls
+  295  clear
+  296  ls
+  297  ls
+  298  python connectscan.py 
+  299  python connectscan.py 
+  300  nmap -sS 192.168.141.132
+  301  sudo nmap -sS 192.168.141.132
+  302  python connectscan.py www.google.com 80
+  303  python connectscan.py -H www.google.com -p 80
+  304  python connectscan.py -H www.google.com -p 80
+  305  python connectscan.py -H www.google.com -p 80
+  306  python connectscan.py -H www.google.com -p 80
+  307  python connectscan.py -H www.google.com -p 80, 443
+  308  python connectscan.py -H www.google.com -p 80, 443
+  309  python
+  310  python connectscan.py -H www.google.com -p 80, 443, 1024
+  311  python
+  312  python connectscan.py -H www.google.com -p 80, 443, 1024
+  313  python connectscan.py -H www.google.com -p 80, 443, 1024
+  314  python connectscan.py -H www.google.com -p 80, 443, 1024
+  315  python connectscan.py -H www.google.com -p 80, 443, 1024
+  316  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  317  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  318  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  319  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  320  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  321  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  322  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  323  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  324  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  325  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  326  python connectscan.py -H www.dwellworks.com -p "80, 443, 1024"
+  327  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  328  python connectscan.py -H www.google.com -p "80, 443, 1024"
+  329  python sshBotNet.py 
+  330  python nmapScan.py 
+  331  python nmapScan.py 
+  332  easy_install pexpect
+  333  sudo easy_install pexpect
+  334  python sshBotNet.py 
+  335  python sshBotNet.py 
+  336  python sshBotNet.py 
+  337  python sshBotNet.py 
+  338  python sshBotNet.py 
+  339  python sshBotNet.py 
+  340  python sshBotNet.py 
+  341  python sshBotNet.py 
+  342  python sshBotNet.py 
+  343  python sshBotNet.py 
+  344  python nmapScan.py 
+  345  python nmapScan.py 
+  346  python nmapScan.py 
+  347  python nmapScan.py -H www.google.com -p "80, 443"
+  348  python nmapScan.py -H www.google.com -p "80, 443"
+  349  python nmapScan.py -H www.google.com -p "80, 443"
+  350  python nmapScan.py -H 192.168.141.132 -p "80, 443"
+  351  python nmapScan.py -H 192.168.141.132 -p "80, 443"
+  352  python sshBotNet.py 
+  353  python sshBotNet.py 
+  354  ifconfig
+  355  whoami
+  356  ifconfig
+  357  sudo easy_install pexpect
+  358  history
+  359  history |grep ssh
+  360  systemsetup sshd start
+  361  sudo systemsetup -setremotelogin on
+  362  ifconfig
+  363  ls
+  364  whoami
+  365  pwd
+  366  uname -v
+  367  sudo pmset sleep 25
+  368  cd PythonDevelopment/
+  369  dir
+  370  ls
+  371  nc -l 20000 > printGeoLoc.py
+  372  cat printGeoLoc.py 
+  373  clear
+  374  python printGeoLoc.py 
+  375  nc -l 20000 > printGeoLoc.py
+  376  pyton printGeoLoc.py 
+  377  python printGeoLoc.py 
+  378  nano printGeoLoc.py 
+  379  python printGeoLoc.py 
+  380  nano printGeoLoc.py 
+  381  python printGeoLoc.py 
+  382  ls
+  383  ping dwell-bkeating
+  384  nmap -sP 10.210.6.0/24
+  385  nmap -sL 10.210.6.0/24
+  386  nmap -sL 10.210.6.0/24 > six.txt
+  387  nmap -sL 10.210.5.0/24 > six.txt
+  388  cat six.txt 
+  389  nmap -sL 10.210.5.0/24 > five.txt
+  390  nmap -sL 10.210.6.0/24 > five.txt
+  391  nmap -sL 10.210.6.0/24 > six.txt
+  392  nmap -sL 10.210.5.0/24 > five.txt
+  393  nmap -sL 10.210.0.0/24 > five.txt
+  394  cat five.txt 
+  395  nmap -sL 10.210.0.0/16 > five.txt
+  396  cat five.txt |grep mat
+  397  cat five.txt |top 10
+  398  head -10 five.txt
+  399  tail -20 five.txt 
+  400  ls -l five.txt 
+  401  ifconfig |grep eht0
+  402  ifconfig |grep eth0
+  403  ifconfig
+  404  clear
+  405  ls -l
+  406  cat five.txt 
+  407  cat five.txt |grep bkeat
+  408  cat five.txt |grep evan
+  409  nc -v 10.210.10.226 25000 < five.txt
+  410  python connectscan.py 
+  411  python connectscan.py 10.210.10.226 -p 25000
+  412  python connectscan.py -H 10.210.10.226 -p 25000
+  413  shutdown 
+  414  sudo shutdown
+  415  sudo shutdown now
+  416  sudo shutdown -h 
+  417  sudo shutdown -h now
+  418  ls
+  419  cd PythonDevelopment/
+  420  ls
+  421  ls -l
+  422  clear
+  423  ls
+  424  ls
+  425  cd ~
+  426  ls
+  427  nc -l 25000 > metasploitable.zip
+  428  nmap -sS 192.168.141.133
+  429  sudo nmap -sS 192.168.141.133
+  430  ifconfig
+  431  ifconfig |grep en0
+  432  ifconfig |grep en1
+  433  ifconfig |grep inet
+  434  ls
+  435  ls -l
+  436  ls -l
+  437  ls -l
+  438  ls -l
+  439  wireshark
+  440  ls -l
+  441  ls -l
+  442  ls -l
+  443  ls -l
+  444  ls -l
+  445  ls -l
+  446  ls -l
+  447  ls -l
+  448  ls -l
+  449  ls -l
+  450  ls -l
+  451  ls -l
+  452  ls -l
+  453  ls -l
+  454  ls -l
+  455  ls -l
+  456  ls -l
+  457  tar -z metasploitable.zip 
+  458  tar -zx metasploitable.zip 
+  459  ls -lh
+  460  ls -l
+  461  ls -l
+  462  ls -l
+  463  ls -l
+  464  ls -lh
+  465  tar -zx metasploitable.zip 
+  466  nc -l 25000 > findDownload.py
+  467  python findDownload.py 
+  468  ls
+  469  mv findDownload.py PythonDevelopment/
+  470  cd py
+  471  cd PythonDevelopment/
+  472  python findDownload.py 
+  473  nano findDownload.py 
+  474  nc -l 25000 > hivemind.pcap
+  475  nano findDownload.py 
+  476  python findDownload.py 
+  477  nc -l 25000 > download.pcap
+  478  nano findDownload.py 
+  479  python findDownload.py 
+  480  ls
+  481  host healthcare.gov
+  482  cd PythonDevelopment/
+  483  python vsftp234.py -H 192.168.141.133
+  484  python vsftp234.py -H 192.168.141.133
+  485  python vsftp234.py -H 192.168.141.133
+  486  java -jar Xmx1024m ../Downloads/burpsuite_free_v1.5.jar 
+  487  java -jar Xmx1024m ../Downloads/burpsuite_free_v1.5.jar 
+  488  sudo java -jar -Xmx1024m ../Downloads/burpsuite_free_v1.5.jar 
+  489  nmap -sP 192.168.141.0/24
+  490  nmap -sV-sP 192.168.141.0/24
+  491  nmap -sV -sP 192.168.141.0/24
+  492  nmap -sV 192.168.141.0/24
+  493  cd /
+  494  ls
+  495  cd Library/
+  496  ls
+  497  cd Desktop\ Pictures/
+  498  ls
+  499  nmap -sP 192.168.141.0/24
+  500  nc 192.168.141.130 39085 < Blue\ Pond.jpg 
+  501  gem install rails
+  502  ls
+  503  mkdir RubyDevelopment
+  504  ls
+  505  cd RubyDevelopment/
+  506  rails new NoodleMe
+  507  gem install atomic -v 1.1.14
+  508  rails -v
+  509  ruby -v
+  510  rvm install ruby-2.0.0-p247
+  511  rvm reinstall ruby-2.0.0-p247
+  512  rvm use ruby-2.0.0-p247
+  513  rails new NoodleMe
+  514  sudo gem install rails
+  515  ls
+  516  rm -rf NoodleMe/
+  517  rails new NoodleMe
+  518  rails
+  519  rails -v
+  520  gem install rails
+  521  rails new NoodleMe
+  522  rvm list known
+  523  ruby -v
+  524  rvm --default use 2.0.0p247
+  525  rvm --default use 2.0.0-p247
+  526  ruby -v
+  527  cd NoodleMe/
+  528  git init
+  529  echo ".DS_Store" >> .gitignore 
+  530  cat .gitignore 
+  531  ls -a
+  532  git add .
+  533  git status
+  534  git commit -m "Initial Commit"
+  535  git log
+  536  ls
+  537  git checkout -b modify-README
+  538  git -help
+  539  ls
+  540  git mv README.rdoc README.md
+  541  git --status
+  542  git -status
+  543  git status
+  544  git commit -am "Changed the README"
+  545  git checkout master 
+  546  git merge modify-README
+  547  git branch -d modify-README
+  548  git push 
+  549  gem install heroku
+  550  heroku login
+  551  heroku create
+  552  git config -e
+  553  git push heroku master
+  554  sudo git push heroku master
+  555  ssh-keygen -t rsa
+  556  heroku keys:add
+  557  git push heroku master
+  558  ls
+  559  nano Gemfile
+  560  nano config/database.yml 
+  561  nano config/database.yml 
+  562  ls
+  563  git checkout -b db_change
+  564  nano config/database.yml 
+  565  nano Gemfile
+  566  git status
+  567  git commit -am "Change Database Type"
+  568  history
+  569  git checkout master
+  570  git merge db_change
+  571  git branch -d db_change
+  572  git push
+  573  git push heroku master
+  574  bundle install
+  575  gem install pg
+  576  gem install pg -v 0.17.0
+  577  gem install libpq-dev
+  578  gem install pg -- --with-pg-lib=/usr/lib
+  579  port search libpq
+  580  port 
+  581  port install libpq
+  582  sudo port install libpq
+  583  brew install postgresql
+  584  brew install postgresql
+  585  sudo brew install postgresql
+  586  brew install postgresql
+  587  brew install postgres
+  588  brew doctor
+  589  brew update
+  590  brew install postgresql
+  591  brew install postgresql --without-ossp-uuid
+  592  gem install pg
+  593  which pg_config
+  594  echo $?
+  595  which README.md
+  596  echo $?
+  597  which pg_config
+  598  find pg_config
+  599  gem install pg
+  600  gem install pg --without-pg_config
+  601  brew install postgresql
+  602  xcode-select --install
+  603  brew install postgresql
+  604  brew link postgresql
+  605  ls -l /usr/local/lib/pkgconfig/
+  606  ls -l /usr/local/lib/pkgconfig/
+  607  ls -l /usr/local/lib/
+  608  chmod 777 /usr/local/lib/pkconfig
+  609  chmod 777 /usr/local/lib/pkgconfig
+  610  sudo chmod 777 /usr/local/lib/pkgconfig
+  611  brew link postgresql
+  612  gem install pg
+  613  bundle install
+  614  git push heroku master
+  615  git status
+  616  git commit -am "Gemfile lock modify"
+  617  git push
+  618  bundle install
+  619  git push heroku master
+  620  nano Gemfile
+  621  bundle install
+  622  git status
+  623  git commit -am "Gemfile change"
+  624  git push
+  625  git push heroku master
+  626  rails server
+  627  cd ..
+  628  ls
+  629  rails new Noodler --databse=postgresql
+  630  ls
+  631  cd Noodler/
+  632  ls
+  633  git init
+  634  git add .
+  635  git commit -m "Initial Commit"
+  636  git remote add origin https://github.com/austinemser/Noodler.git
+  637  git push -u origin master
+  638  rails generate controller welcome index
+  639  git status
+  640  pg_ctl -D /usr/local/var/postgres
+  641  pg_ctl -D /usr/local/var/postgres -l
+  642  initdb /usr/local/var/postgres
+  643  sudo gem install lunchy
+  644  cp /usr/local/Cellar/postgresql/9.3.1/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents/
+  645  lunch start postgres
+  646  lunchy start postgres
+  647  lunchy stop postgres
+  648  brew install postgresql
+  649  gem install pg
+  650  brew info postgres
+  651  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist 
+  652  pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+  653  createuser myuser
+  654  lunchy start postgres
+  655  createdb -Omyuser -Eutf8 noodle_dev
+  656  createdb -Omyuser -Eutf8 noodle_test
+  657  psql -U myuser noodle_dev
+  658  env ARCHFLAGS="-arch x86_64" gem install pg
+  659  cd ..
+  660  ls
+  661  rails new NoodleRails --database=postgresql
+  662  rails g scaffold Menu title:string description:text calories:int
+  663  rails g scaffold Menu title:string description:text
+  664  ls
+  665  cd NoodleRails/
+  666  rails g scaffold Menu title:string description:text calories:int
+  667  clear
+  668  nano config/database.yml 
+  669  history |grep user
+  670  nano config/database.yml 
+  671  rake db:migrate
+  672  nano config/database.yml 
+  673  ls
+  674  history
+  675  history > setupdb.txt
