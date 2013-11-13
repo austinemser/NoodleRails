@@ -98,6 +98,18 @@ def index
   
 end
 
+#create table with migration
+class CreateZombies < ActiveRecord::Migration
+  def change
+    create_table :zombies do |t|
+      t.string :name
+      t.text :bio
+      t.integer :age
+      t.timestamps
+    end 
+  end
+end
+
 #note the syntax is Add<Anything>To<TableName>
 rails g migration AddColumnToTable columnname:type
 
@@ -108,3 +120,24 @@ class AddLocationToTweets < ActiveRecord::Migration
     add_column :tweets, :show_location, :boolean, default: false
   end
 end
+
+#rake tasks
+rake db:migrate #run all missing migrations
+rake db:rollback #roll back previous migration
+rake db:schema:dump #dump current dbstate
+rake db:setup #creates the db loads schema and seed, creates db/schema.rb
+
+rails g migration RemoveAgeFromZomvies age:integer
+class RemoveAgeFromZombies < ActiveRecord::Migration
+  def up
+    remove_column :zombies, :age
+￼end
+  #run with rollback
+￼￼def down
+  add_column :zombies, :age, :integer
+  end 
+end
+￼
+
+
+
