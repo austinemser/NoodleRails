@@ -97,3 +97,14 @@ def index
   end
   
 end
+
+#note the syntax is Add<Anything>To<TableName>
+rails g migration AddColumnToTable columnname:type
+
+#Manual migration
+class AddLocationToTweets < ActiveRecord::Migration
+  def change
+    add_column :tweets, :location, :string, limit: 30
+    add_column :tweets, :show_location, :boolean, default: false
+  end
+end
