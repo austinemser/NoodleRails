@@ -41,6 +41,9 @@ end
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
+gem 'paperclip'
+gem 'aws-sdk'
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'rails_12factor', group: :production
