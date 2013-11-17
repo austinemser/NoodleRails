@@ -2,7 +2,7 @@ class Menu < ActiveRecord::Base
   validates :title, :presence =>true, :uniqueness => true
   
   has_attached_file :photo, :styles => { :small => "150x150>"},
-                            :url => "/assets/menus/:id/:style/:basename.:extension"
+                            :url => "/assets/menus/:id/:style/:basename.:extension",
                             :path => ":rails_root/public/assets/menus/:id/:style/:basename.:extension"
   
   validates_attachment_presence :photo
