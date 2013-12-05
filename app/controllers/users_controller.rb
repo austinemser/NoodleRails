@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(params[:user])
+    @user = User.new(params[:user].permit(:email, :password, :password_confirmation))
     if @user.save
       session[:user_id] = @user.id
       redirect_to root_url, notice: "Signed up!"
@@ -12,7 +12,8 @@ class UsersController < ApplicationController
       render "new"
     end
   end
-  
+
+private
   #attr_accessible :email, :password, :password_confirmation
   def user_params
     params.require(:user).permit(:email, :password, :password_confirmation)

@@ -1,5 +1,5 @@
 class MenusController < ApplicationController
-  #before_filter :restrict_access
+  before_filter :authorize
   before_action :set_menu, only: [:show, :edit, :update, :destroy]
 
 
