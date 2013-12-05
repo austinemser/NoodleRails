@@ -1,1 +1,1 @@
-json.extract! @menu, :title, :description, :calories, :created_at, :updated_at
+json.extract! @menu, :title, :description, :calories, :created_at, :updated_at, :imageURL

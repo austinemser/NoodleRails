@@ -1,5 +1,5 @@
 class Menu < ActiveRecord::Base
-  before_save :change_photo_filename
+  before_save :change_photo_filename, :save_image_url
   
   validates :title, :presence =>true, :uniqueness => true
   
@@ -14,6 +14,11 @@ class Menu < ActiveRecord::Base
       extension = File.extname(photo_file_name).downcase
       self.photo.instance_write :file_name, "#{self.title}#{extension}"
     end
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+    
+    def save_image_url
+      extension = File.extname(photo_file_name).downcase
+      titleForUrl = self.title.tr(' ', '+')
+      self.imageURL = "https://s3.amazonaws.com/noodle_image/menus/photos/#{titleForUrl}#{extension}"
+    end                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 end
   

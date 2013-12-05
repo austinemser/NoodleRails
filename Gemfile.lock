@@ -31,6 +31,7 @@ GEM
       json (~> 1.4)
       nokogiri (>= 1.4.4, < 1.6.0)
       uuidtools (~> 2.1)
+    bcrypt-ruby (3.1.2)
     builder (3.1.4)
     climate_control (0.0.3)
       activesupport (>= 3.0)
@@ -43,6 +44,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    doorkeeper (0.7.3)
+      jquery-rails (>= 2.0.2)
+      railties (>= 3.1)
     erubis (2.7.0)
     execjs (2.0.2)
     hike (1.2.3)
@@ -129,7 +133,9 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk
+  bcrypt-ruby (~> 3.1.2)
   coffee-rails (~> 4.0.0)
+  doorkeeper
   jbuilder (~> 1.2)
   jquery-rails
   paperclip

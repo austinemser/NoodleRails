@@ -1,5 +1,7 @@
 class MenusController < ApplicationController
+  #before_filter :restrict_access
   before_action :set_menu, only: [:show, :edit, :update, :destroy]
+
 
   # GET /menus
   # GET /menus.json
@@ -70,6 +72,11 @@ class MenusController < ApplicationController
     
     # Never trust parameters from the scary internet, only allow the white list through.
     def menu_params
-      params.require(:menu).permit(:title, :description, :calories, :photo)
+      params.require(:menu).permit(:title, :description, :calories, :photo, :imageURL)
+    end
+    
+    def restrict_access
+      api_key = ApiKey.find_by_access_token(params[:access_token])
+      head :unauthorized unless api_key
     end
 end
